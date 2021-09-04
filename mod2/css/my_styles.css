@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+/* ____________ Base Styling for screen less than  768px (Mobile view)____________*/
+h1 {
+  font-size: 1.75em;
+  text-align: center;
+}
+.section {
+  background-color: gray;
+  border: 2px black solid;
+  position: relative;
+}
+.title {
+  font-size: 1.25em;
+  float: right;
+  width: 100px;
+  border: 1px black solid;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 15px;
+}
+#title1 {
+  background-color: palevioletred;
+}
+#title2 {
+  background-color: rgb(170, 30, 30);
+}
+#title3 {
+  background-color: rgb(170, 170, 46);
+}
+p {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Righteous", cursive;
+}
+.para {
+  clear: both;
+}
+section {
+  padding: 0px 20px 20px 20px;
+}
+/* Simple Responsive Framework. */
+
+.main {
+  width: 100%;
+}
+/*_________Media queries For desktop screens__________*/
+
+@media (min-width: 992px) {
+  .col-lar1,
+  .col-lar2,
+  .col-lar3,
+  .col-lar4,
+  .col-lar5,
+  .col-lar6,
+  .col-lar7,
+  .col-lar8,
+  .col-lar9,
+  .col-lar10,
+  .col-lar11,
+  .col-lar12 {
+    float: left;
+  }
+  .col-lar1 {
+    width: 8.33%;
+  }
+  .col-lar2 {
+    width: 16.66%;
+  }
+  .col-lar3 {
+    width: 25%;
+  }
+  .col-lar4 {
+    width: 33.33%;
+  }
+  .col-lar5 {
+    width: 41.66%;
+  }
+  .col-lar6 {
+    width: 50%;
+  }
+  .col-lar7 {
+    width: 58.4%;
+  }
+  .col-lar8 {
+    width: 66.6%;
+  }
+  .col-lar9 {
+    width: 75.18%;
+  }
+  .col-lar10 {
+    width: 83.33%;
+  }
+  .col-lar11 {
+    width: 91.74%;
+  }
+  .col-lar12 {
+    width: 100%;
+  }
+}
+/*_________Media queries For tablet View__________*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-med1,
+  .col-med2,
+  .col-med3,
+  .col-med4,
+  .col-med5,
+  .col-med6,
+  .col-med7,
+  .col-med8,
+  .col-med9,
+  .col-med10,
+  .col-med11,
+  .col-med12 {
+    float: left;
+  }
+  .col-med1 {
+    width: 8.33%;
+  }
+  .col-med2 {
+    width: 16.66%;
+  }
+  .col-med3 {
+    width: 25%;
+  }
+  .col-med4 {
+    width: 33.33%;
+  }
+  .col-med5 {
+    width: 41.66%;
+  }
+  .col-med6 {
+    width: 50%;
+  }
+  .col-med7 {
+    width: 58.4%;
+  }
+  .col-med8 {
+    width: 66.6%;
+  }
+  .col-med9 {
+    width: 75.18%;
+  }
+  .col-med10 {
+    width: 83.33%;
+  }
+  .col-med11 {
+    width: 91.74%;
+  }
+  .col-med12 {
+    width: 100%;
+  }
+}
